@@ -1,0 +1,60 @@
+html,body{
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+.big1{
+  width: 800px;
+  height: 100%;
+  background-color: rgb(201, 179, 143);
+  display: inline-flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.small{
+   background: rgb(83, 113, 230);
+   margin: 10px;
+   flex: auto;
+   position: relative;
+}
+.small img{
+  width: 100%;
+  height: 200px;
+}
+.small h2{
+
+}
+.socialbuttons{
+  width: calc(100% - 1px);
+  bottom: 0px;
+  border: 1px solid black;
+  background-color: rgb(196, 198, 198);
+  line-height: 20px;
+  }
+  .socialbuttons span{
+  padding: 0px 21px;
+  border-right: 1px solid black;
+  }
+  .socialbuttons span:last-child{
+  padding: 0px 21px;
+  border: none;
+  width: 100%;
+  }
+.datetime{
+  width: 60px;
+  height: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.date{
+  width: 100%;
+  height: 50px;
+  background-color: rgba(64, 177, 153, 0.63);
+  vertical-align: middle;
+}
+.time{
+  width: 100%;
+  height: 20px;
+  background-color: rgba(71, 124, 186, 0.54);
+}
